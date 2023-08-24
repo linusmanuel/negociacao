@@ -6,4 +6,8 @@ export class Negociacoes {
   adicionar(negociacao: Negociacao) {
     this.negociacoes.push(negociacao)
   }
+
+  lista(): Array<Negociacao> {
+    return this.negociacoes
+  }
 }
